@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE537CF51FD7306900656645 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AE537CF41FD7306900656645 /* Inceptionv3.mlmodel */; };
 		AEAE57AD1FD0869C004C1209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE57AC1FD0869C004C1209 /* AppDelegate.swift */; };
 		AEAE57AF1FD0869C004C1209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE57AE1FD0869C004C1209 /* ViewController.swift */; };
 		AEAE57B21FD0869C004C1209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEAE57B01FD0869C004C1209 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE537CF41FD7306900656645 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		AEAE57A91FD0869C004C1209 /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAE57AC1FD0869C004C1209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEAE57AE1FD0869C004C1209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +56,13 @@
 		AEAE57AB1FD0869C004C1209 /* SeeFood */ = {
 			isa = PBXGroup;
 			children = (
-				AEAE57AC1FD0869C004C1209 /* AppDelegate.swift */,
 				AEAE57AE1FD0869C004C1209 /* ViewController.swift */,
+				AEAE57AC1FD0869C004C1209 /* AppDelegate.swift */,
 				AEAE57B01FD0869C004C1209 /* Main.storyboard */,
 				AEAE57B31FD0869C004C1209 /* Assets.xcassets */,
 				AEAE57B51FD0869C004C1209 /* LaunchScreen.storyboard */,
 				AEAE57B81FD0869C004C1209 /* Info.plist */,
+				AE537CF41FD7306900656645 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEAE57AF1FD0869C004C1209 /* ViewController.swift in Sources */,
+				AE537CF51FD7306900656645 /* Inceptionv3.mlmodel in Sources */,
 				AEAE57AD1FD0869C004C1209 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -302,6 +306,7 @@
 				AEAE57BD1FD0869C004C1209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
